@@ -1416,3 +1416,37 @@ h6 {
   font-family: Oxygen, sans-serif;
 }
 
+.button-v {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.button-v img {
+  width: 100%;
+}
+
+.visit a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.visit a p {
+  width: 100%;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin: 0 0 5px;
+}
+
+.visit {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  z-index: 3;
+  width: 100px;
+}
