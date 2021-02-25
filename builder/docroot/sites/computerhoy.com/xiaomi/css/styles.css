@@ -1015,9 +1015,9 @@ header .xiaomi-logo:focus {
   outline: 0;
 }
 header .xiaomi-logo img {
-  width: 94px;
-  -webkit-transition: width 0.2s ease-in-out;
-  transition: width 0.2s ease-in-out;
+  width: 54px;
+  padding: 6px;
+  box-sizing: border-box;
 }
 header.mini {
   -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
@@ -1061,7 +1061,7 @@ header.mini {
   width: 100%;
 }
 .move-down img{
-  width: 120px;
+  width: 800px;
 }
 @media only screen and (min-width: 980px) {
   .hero {
@@ -1071,7 +1071,7 @@ header.mini {
     top: inherit;
   }
   header.mini .xiaomi-logo img {
-    width: 120px;
+    width: 80px;
   }
 }
 .hero h1 {
