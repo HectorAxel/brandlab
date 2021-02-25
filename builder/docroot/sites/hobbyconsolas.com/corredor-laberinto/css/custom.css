@@ -1,0 +1,105 @@
+/*! Place your custom styles here */
+
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css?family=Play:700');
+
+.main-container h1,
+.main-container h2 {
+  font-family: 'Play', sans-serif;
+}
+
+.img-mob{
+  height: 250px;
+}
+
+
+/* NAV */
+
+.nav-container{
+  background: #252525;
+}
+.bar .logo{
+  top: 0;
+}
+.col.logo-mob,
+.col.logo-desk{
+  text-align: center;
+}
+
+/* BUTTONS */
+
+.main-container .btn,
+.main-container .btn__text,
+.main-container button,
+.main-container .btn.type--uppercase .btn__text,
+#menu-custom .btn {
+  font-family: 'Play', sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+  background-color: #74978E;
+  border:  none;
+  border-radius: 0;
+}
+
+
+/* ICONS */
+
+.video-play-icon{
+  width: 5em;
+  height: 5em;
+}
+
+/* DESCRIPCION ESPECIAL */
+
+.descripcion-especial{
+  background: #000;
+  color: #fff;
+}
+.descripcion-especial .testimonial blockquote{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+/* FOOTER */
+
+footer.footer-7 {
+  padding: 20px;
+}
+ul.logos li a img {
+    height: 20px;
+}
+ul.logos li {
+    display: block;
+}
+ul.logos li:first-child {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .bar .logo {
+    top: 4px
+  }
+  ul.logos li {
+      display: inline-block;
+  }
+  ul.logos li:first-child {
+      margin-right: 50px;
+      margin-bottom: 0;
+  }
+  .video-container{
+    padding-top: 40px;
+  }
+
+}

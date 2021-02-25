@@ -1,0 +1,132 @@
+/*! Place your custom styles here */
+
+/* FONT */
+
+.main-container h1,
+.main-container h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #554961;
+}
+
+.img-mob {
+  height: 100vh;
+}
+
+/* NAV */
+
+.nav-container {
+  background: #252525;
+}
+.bar .logo {
+  top: 0;
+}
+.col.logo-mob,
+.col.logo-desk {
+  text-align: center;
+}
+
+/* BUTTONS */
+
+.main-container .btn,
+.main-container .btn__text,
+.main-container button,
+.main-container .btn.type--uppercase .btn__text,
+#menu-custom .btn {
+  letter-spacing: 2px;
+  font-size: 16px;
+  background-color: #d7a38a;
+  border: none;
+  border-radius: 0;
+}
+
+/* ICONS */
+
+.video-play-icon {
+  width: 5em;
+  height: 5em;
+}
+
+/* DESCRIPCION ESPECIAL */
+
+.descripcion-especial {
+  background: #000;
+  color: #fff;
+}
+.descripcion-especial .testimonial blockquote {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 26px;
+}
+
+/* FOOTER */
+
+footer.footer-7 {
+  padding: 20px;
+}
+ul.logos li a img {
+  height: 20px;
+}
+ul.logos li {
+  display: block;
+}
+ul.logos li:first-child {
+  margin-bottom: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .bar .logo {
+    top: 4px;
+  }
+  ul.logos li {
+    display: inline-block;
+  }
+  ul.logos li:first-child {
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+  .video-container {
+    padding-top: 40px;
+  }
+}
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+}
+@media (min-width: 660px) {
+  .video-responsive {
+    padding-bottom: 51.25%; /* 16/9 ratio */
+  }
+}
+@media (min-width: 990px) {
+  .video-responsive {
+    padding-bottom: 59.25%; /* 16/9 ratio */
+  }
+}
+@media (min-width: 1200px) {
+  .video-responsive {
+    padding-bottom: 51.25%; /* 16/9 ratio */
+  }
+}
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.last-video {
+  max-width: 700px;
+  float: none !important;
+  margin: 0 auto;
+}
+.last-video h1 {
+  text-align: center;
+}

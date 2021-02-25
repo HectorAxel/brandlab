@@ -1,0 +1,294 @@
+/*! Place your custom styles here */
+@font-face {
+  font-family: "LGSmart-regular";
+  font-style: normal;
+  src: url("../../fonts/lg/LGSmartUI-Regular.eot");
+  src: url("../../fonts/lg/LGSmartUI-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/lg/LGSmartUI-Regular.woff") format("woff"),
+    url("../../fonts/lg/LGSmartUI-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LGSmart-light";
+  font-style: normal;
+  src: url("../../fonts/lg/LGSmartUI-Light.eot");
+  src: url("../../fonts/lg/LGSmartUI-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/lg/LGSmartUI-Light.woff") format("woff"),
+    url("../../fonts/lg/LGSmartUI-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LGSmart-bold";
+  font-style: normal;
+  src: url("../../fonts/lg/LGSmartUI-Bold.eot");
+  src: url("../../fonts/lg/LGSmartUI-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/lg/LGSmartUI-Bold.woff") format("woff"),
+    url("../../fonts/lg/LGSmartUI-Bold.ttf") format("truetype");
+}
+
+
+/* COMMON */
+
+.row.title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main-container .color-primary,
+.bg--dark:not(.nav-bar):not(.bar) i{
+  color: #fff;
+}
+.main-container .bg--dark {
+    background: #333;
+}
+p.content-tag{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-top: solid 2px #fff;
+    border-bottom:  solid 2px #fff;
+    display: inline-block;
+}
+p.content-tag.dark{
+    border-top: solid 2px #000;
+    border-bottom:  solid 2px #000;
+}
+h1.titular{
+    text-transform:  uppercase;
+    font-weight:  bold;
+    line-height: 36px;
+    font-size: 28px;
+}
+h2.block-title {
+    font-size: 42px;
+}
+.main-container .text-dark h1,
+.main-container .text-dark p{
+  color: #000;
+}
+.switchable.imagebg::after{
+    display: block;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+.switchable.imagebg.dark::after {
+    display: block;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+/* CH NAV */
+
+#menu-custom {
+  padding: 1em;
+  background: #2A2A2A;
+  border-bottom: 2px solid #EA001D;
+}
+#menu-custom .logo {
+  max-height: none;
+  top: 0;
+}
+.header-btn {
+    top: 0.4em;
+}
+.nav-container {
+    z-index: 500;
+    width: 100%;
+}
+.hamburger-toggle {
+  display: none;
+}
+
+
+/* logos cover */
+
+.main-container .container.pos-bottom {
+    display: none;
+}
+.lg-innovacion{
+  width: 85%;
+  top: -55px;
+}
+.lg-innovacion h3{
+  font-size: 14px;
+}
+
+/* process */
+
+.process-1:before{
+  background: #a50034;
+}
+.process__item:after{
+  background: #a50034;
+  border: solid 2px #a50034;
+  top: 8px
+}
+.process__item h4 {
+    font-size: 30px;
+}
+.process__item p {
+    font-size: 16px;
+}
+
+
+
+
+/* PRODUCTOS */
+
+.productos{
+  text-align: center;
+}
+.productos a {
+  text-decoration: none;
+}
+.contenedor-imagen-producto{
+  height: 170px;
+}
+.helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.contenedor-imagen-producto img{
+  vertical-align: middle;
+}
+
+
+
+
+/*** BUTTONS ***/
+
+
+.main-container .btn,
+.main-container .btn__text,
+.main-container button,
+.main-container .btn.type--uppercase .btn__text,
+#menu-custom .btn {
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.main-container .btn--primary,
+.main-container .btn--primary:visited,
+#menu-custom .btn {
+    background: #a50034;
+    border-color: #a50034;
+    border-radius: 0;
+}
+.black-back .col-md-12 img {
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+section.black-back {
+    padding: 20px 0;
+    background: #000;
+}
+
+
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .lg-innovacion{
+    margin-top: 0;
+    width: 100%;
+    top: 0;
+  }
+  .lg-innovacion h3{
+    font-size: 30px;
+  }
+  .main-container .container.pos-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: block;
+  }
+  .cover-logos ul li {
+      display: inline-block;
+      color: #000;
+  }
+  .cover-logos ul li.logo-brand {
+      margin-left: 10px;
+  }
+  .cover-logos ul li.logo-brand img {
+      max-height: 37px;
+  }
+  .col-md-para5{
+    width: 234px;
+  }
+}
+
+header{
+  padding: 20px;
+  text-align: center;
+}
+header img{
+  max-width: 250px;
+}
+.imagebg{
+  height: calc(100vh - 82px);
+}
+
+section.cover h1{
+  font-family: "LGSmart-Bold", Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+section.cover h3{
+  font-family: "LGSmart-Regular", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+}
+.cover-logos .logos li{
+  color: #fff;
+}
+.lg-innovacion{
+  margin-top: calc(50vh - 280px);
+}
+.smart-green{
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  bottom: 25px;
+}
+.smart-green img{
+  max-width: 300px;
+}
+@media (min-width:768px)  { /* tablet */
+  .smart-green img{
+    max-width: 500px;
+  }
+  header img{
+    max-width: 510px;
+  }
+  section.cover h1{
+    font-size: 46px;
+    line-height: 50px;
+  }
+  
+  section.cover h3{
+    font-size: 23px;
+    line-height: 27px;
+  }
+  .imagebg{
+    height: calc(100vh - 126px);
+  }
+  .cover-logos .logos{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}

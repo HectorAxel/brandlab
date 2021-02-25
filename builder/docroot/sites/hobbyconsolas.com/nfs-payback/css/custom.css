@@ -1,0 +1,16 @@
+/*! Place your custom styles here */
+
+section.cover.imagebg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+section.text-center.bg--dark {
+    background-color: #0f0220;
+}
+a.btn.btn--primary.type--uppercase {
+    background-color: #ff0033;
+}
+.video-play-icon:hover {
+    background-color: #ff0033;
+    border: none;
+}

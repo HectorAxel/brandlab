@@ -1,0 +1,305 @@
+/*! Place your custom styles here */
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'kiam';
+    font-style: normal;
+    src: url("../../fonts/kia-stinger-fin-semana-diferente/DesignKM.eot");
+    src: url("../../fonts/kia-stinger-fin-semana-diferente/DesignKM.eot?#iefix") format("embedded-opentype"), url("../../fonts/kia-stinger-fin-semana-diferente/DesignKM.woff") format("woff"), url("../../fonts/kia-stinger-fin-semana-diferente/DesignKM.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'kiab';
+    font-style: normal;
+    src: url("../../fonts/kia-stinger-fin-semana-diferente/DesignKB.eot");
+    src: url("../../fonts/kia-stinger-fin-semana-diferente/DesignKB.eot?#iefix") format("embedded-opentype"), url("../../fonts/kia-stinger-fin-semana-diferente/DesignKB.woff") format("woff"), url("../../fonts/kia-stinger-fin-semana-diferente/DesignKB.ttf") format("truetype");
+}
+
+body {
+    font-family: 'kiam', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'kiab', sans-serif;
+}
+/* end of FONTS */
+
+
+nav#menu1 {
+    padding: 10px 0 18px;
+}
+
+#menu1 .col-md-1.col-sm-2.hidden-xs {
+    padding: 0;
+}
+
+#menu1 .button-section {
+    margin-top: 16px;
+}
+
+img.logo.logo-mob {
+    width: 120px;
+    margin-bottom: 14px;
+    max-height: none;
+}
+img.logo.logo-desk {
+    width: 100px;
+    max-height: none;
+}
+a.btn.btn--primary.type--uppercase {
+    background-color: #bb162b;
+    border: none;
+}
+a {
+    color: #bb162b;
+}
+h1 {
+    font-weight: bold;
+}
+h2 {
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-size: 34px;
+}
+@media (max-width: 767px) {
+    h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+}
+
+.video-play-icon {
+    width: 60px;
+    height: 60px;
+   background: rgba(255,255,255,.7);
+}
+.video-play-icon:hover {
+    background: rgba(255,255,255,.9);
+}
+.video-play-icon:before {
+    top: 46%;
+}
+
+.brand-lab-logo {
+    max-width: 160px;
+}
+
+.kia-buttons {
+    padding: 40px;
+
+}
+.kia-buttons .btn {
+    width: 100%;
+}
+.kia-buttons .btn:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.capitulo:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.capitulo:hover .lead {
+    color: inherit;
+    /* text-decoration: underline; */
+}
+
+.capitulo .readmore {
+    color: #bb162b;
+    margin-top: 10px;
+    font-size: 0.96em;
+}
+
+.capitulo:hover .readmore {
+    text-decoration: underline;
+}
+
+
+.capitulo h2 {
+    font-size: 28px;
+}
+
+.capitulo h2:before {
+    content: '';
+    display: inline-block;
+    background: #bb162b;
+    width: 30px;
+    height: 4px;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.capitulo span {
+    display: block;
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 34px;
+    margin-bottom: 18px;
+}
+
+.kia-buttons {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background: url(../../img/kia-stinger-fin-semana-diferente/kia-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+/* .kia-buttons a.btn.btn--primary.type--uppercase {
+    background: #232323;
+} */
+
+.kia-buttons .heading-block {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 530px) {
+    .kia-buttons .btn:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
+    .kia-buttons .btn {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .post-kia-buttons {
+        margin-top: 90px;
+    }
+}
+
+.kia-button
+
+/* FOOTER */
+
+footer.footer-7 {
+  padding: 20px;
+}
+ul.logos{
+  margin-top: 20px;
+}
+ul.logos li a img {
+    height: 50px;
+}
+ul.logos li {
+    display: block;
+}
+ul.logos li:first-child {
+    margin-bottom: 20px;
+}
+
+@media (max-width:1024px) {
+    #menu1 .container {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  /* FOOTER */
+
+  ul.logos li {
+      display: inline-block;
+  }
+  ul.logos{
+    margin-top: 0;
+  }
+  ul.logos li a img {
+      height: 40px;
+  }
+  ul.logos li:first-child {
+      margin-right: 50px;
+      margin-bottom: 0;
+  }
+  .header-logos img{
+    height: 26px;
+    margin: 0 5px;
+  }
+
+  .header-logos .brandlab-logo {
+      margin-top: 4px;
+  }
+}
+
+/* Instagram */
+
+.instakia ul {
+    display: flex;  
+}
+
+.instakia ul li {
+    flex: 1;
+    transition: all 200ms ease-out;
+}
+
+.instakia ul li:hover {
+    flex: 1.3;
+}
+
+.instakia ul li a {
+    display: block;
+}
+.instakia ul li a img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    max-height: 200px;
+}
+.instakia a {
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+}
+.instakia a:hover {
+    opacity: .85;
+}
+.instakia:not(.instafeed--gapless) li {
+    padding: 0.46428571em;
+}
+.instakia.instafeed--gapless li {
+    margin-bottom: -1px;
+}
+.instakia + .btn {
+    margin-top: 2.78571429em;
+}
+.instakia[data-grid="1"][data-amount="8"] li {
+    display: inline-block;
+    width: 12.5%;
+}
+
+.logo-dark {
+    max-width: 140px;
+}
+
+@media (max-width: 680px) {
+    .instakia ul {
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    .instakia ul li {
+        min-width: 31%;
+    }
+    .instakia ul li:hover {
+        flex: 1;
+    }
+}
+
+@media (max-width: 520px) {
+    .instakia ul {
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    .instakia ul li {
+        min-width: 50%;
+    }
+    .instakia ul li:hover {
+        flex: 1;
+    }
+}

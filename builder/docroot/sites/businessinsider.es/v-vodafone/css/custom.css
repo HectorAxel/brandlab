@@ -1,0 +1,422 @@
+/*! Place your custom styles here */
+
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+    font-family: 'vodafone_ltregular';
+    src: url('../../fonts/v-vodafone/vodafonelt-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/v-vodafone/vodafonelt-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'vodafone_rgbold';
+    src: url('../../fonts/v-vodafone/vodafonerg-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/v-vodafone/vodafonerg-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'vodafone_rgregular';
+    src: url('../../fonts/v-vodafone/vodafonerg-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/v-vodafone/vodafonerg-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a,
+.imagebg:not(.image--light) .bg--white a:not(.btn),
+.social-list li a i,
+.imagebg:not(.image--light) a{
+  color: #E60000;
+}
+
+h1,h3,h2{
+  font-family: 'vodafone_rgbold', sans-serif;
+  font-weight: bold;
+}
+p{
+  font-family: 'vodafone_ltregular', sans-serif;
+}
+a,
+.project-thumb h4{
+  font-family: 'vodafone_rgregular', sans-serif;
+}
+p + a:not(.btn) {
+    font-size: 19px;
+    font-weight: normal;
+}
+.imagebg:not(.image--light) a {
+  font-weight: normal;
+}
+.section-title {
+    padding: 0 10px;
+}
+.section-title h2::before{
+  content:"";
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+  background-size: cover;
+}
+.section-title h2.camera-title::before{
+  background-image:url("../../img/v-vodafone/nav-camera.jpg");
+}
+.section-title h2.pet-title::before{
+  background-image:url("../../img/v-vodafone/nav-pet.jpg");
+}
+.section-title h2.auto-title::before{
+  background-image:url("../../img/v-vodafone/nav-car.jpg");
+}
+.section-title h2.home-title::before{
+  background-image:url("../../img/v-vodafone/nav-connect.jpg");
+}
+.section-title h2.bag-title::before{
+  background-image:url("../../img/v-vodafone/nav-bag.jpg");
+}
+.cover h1{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.cover h2{
+  font-size: 30px;
+  line-height: 35px;
+}
+.container.pos-bottom{
+  margin-bottom: 0;
+}
+.cover-logos ul.logos li:first-child {
+    margin-right: 5px;
+}
+.boxed h3 {
+    font-size: 26px;
+    line-height: 32px;
+}
+.boxed p {
+    font-size: 20px;
+    line-height: 27px;
+}
+.switchable__text h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.feature__body h3{
+  font-size: 21px;
+  line-height: 25px;
+}
+.feature__body p{
+  font-size: 20px;
+  line-height: 25px;
+}
+
+
+/*** NAVIGATION ***/
+
+#menu-custom {
+    position: fixed;
+    height: 60px;
+    z-index: 999;
+    width: 100%;
+}
+.modal-container:before {
+    background: rgba(255, 255, 255, 1);
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.menu-fullscreen a,
+.modal-container .modal-content .modal-close-cross:before,
+.menu-toggle i{
+  color: #3A3A3A;
+}
+.menu-fullscreen a{
+  font-size: 20px;
+}
+.menu-vertical li:not(:last-child){
+  margin-bottom: 8px;
+}
+.menu-fullscreen .modal-content .modal-close-cross{
+  right: 0;
+  top: 3px;
+}
+.modal-container .modal-content .modal-close-cross:before{
+  font-size: 2.5em;
+}
+.menu-vertical{
+  width: 96%;
+}
+.menu-vertical li:not(:hover):not(.dropdown--active) {
+    opacity: 1;
+}
+.image-menu{
+    display: inline-block;
+    vertical-align: top;
+    image-rendering:-o-crisp-edges;            /* Opera          */
+    image-rendering:-webkit-optimize-contrast; /* Safari         */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+    -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+
+/*** COVER ***/
+
+.vodafone-title {
+    text-align: center;
+}
+.main-container .logo{
+  height: 40px;
+  margin-bottom: 45px;
+}
+.v-logo{
+  width: 40%;
+  margin-bottom: 40px;
+}
+.vodafone-title{
+  margin-bottom: 50px;
+}
+.cover.imagebg{
+  padding-bottom: 40px;
+}
+
+
+/*** CAROUSEL ***/
+
+.carousel .container {
+    width: 100%;
+    padding: 0;
+}
+.carousel {
+    padding: 0;
+    margin-bottom: 100px;
+}
+.project-thumb.hover-element .hover-element__reveal .project-thumb__title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+[data-scrim-top]:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 80%;
+    background: -moz-linear-gradient(bottom, #252525 20%, rgba(0, 0, 0, 0) 48%);
+    background: -webkit-gradient(linear, left bottom, left bottom, color-stop(0%, #252525), color-stop(48%, rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(bottom, #252525 20%, rgba(0, 0, 0, 0) 48%);
+    background: -o-linear-gradient(bottom, #252525 20%, rgba(0, 0, 0, 0) 48%);
+    background: -ms-linear-gradient(bottom, #252525 20%, rgba(0, 0, 0, 0) 48%);
+    background: linear-gradient(to top, #252525 20%, rgba(0, 0, 0, 0) 48%);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+.project-thumb h4{
+  font-size: 24px;
+  line-height: 24px;
+}
+.flickity-prev-next-button{
+  display: block;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background: #fff;
+}
+.flickity-prev-next-button:before{
+  position: relative;
+  top: 3px;
+  color: #E60000;
+}
+
+/*.flickity-slider{
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+li.slide {
+    padding: 0;
+} */
+
+
+/*** BLOQUES CONTENIDOS ***/
+
+.imagebg:not(.image--light) .boxed:not(.bg--white):not(.bg--none) {
+  background: #fff;
+}
+.imagebg:not(.image--light) h3,
+.imagebg:not(.image--light) h4,
+.imagebg:not(.image--light) h5,
+.imagebg:not(.image--light) h6,
+.imagebg:not(.image--light) p,
+.imagebg:not(.image--light) ul,
+.imagebg:not(.image--light) blockquote{
+  color: #000;
+}
+.text-light h3,
+.text-light p,
+p.text-light {
+  color: #fff !important;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 1px rgba(0,0,0,.8)
+}
+
+.btn.btn_vodafone {
+  background: #E60000;
+  border-color: rgb(211, 3, 3);
+}
+
+
+/*** FOOTER ***/
+
+footer.footer-7 {
+  padding: 20px;
+  /*border-top: solid 1px #e4e4e4;*/
+  background-color: #3a3a3a;
+}
+ul.logos li a img {
+    height: 30px;
+}
+
+ul.logos li {
+    display: inline-block;
+}
+
+ul.logos li:first-child {
+    margin-right: 5px;
+}
+/*ul.logos li:last-child {
+    margin-left: 30px;
+}*/
+.col-sm-4.text-center.footer-logos {
+    padding: 20px 0 10px;
+    color: #fff;
+}
+.footer-logos .logos li{
+  color: #fff;
+}
+
+
+p.content-tag{
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-top: solid 2px #fff;
+  border-bottom:  solid 2px #fff;
+  display: inline-block;
+  color: #fff;
+}
+
+.switchable.imagebg.dark::after {
+  display: block;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .switchable.imagebg.dark::after {
+    display: none;
+  }
+  .cover h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .cover h2{
+    font-size: 50px;
+  }
+  .vodafone-title{
+    margin-bottom: 60px;
+  }
+  .feature__body{
+    min-height: 310px;
+  }
+  .col-sm-4.text-center.footer-logos {
+      padding: 0;
+  }
+  .logo{
+    max-width: 288px;
+  }
+  .v-logo{
+    max-width: 220px;
+    margin: 0 0 70px;
+  }
+  .vodafone-logo{
+    text-align: left;
+    top:-70px;
+  }
+  .menu-vertical{
+    width: 100%;
+    top: 40px;
+    position: relative;
+  }
+  .modal-container:before {
+      width: 20%;
+  }
+  .modal-container .modal-content{
+    left: 85%;
+  }
+  .menu-fullscreen .modal-content .modal-close-cross{
+    top: 0;
+  }
+  .project-thumb h4{
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .project-thumb.hover-element .hover-element__reveal .project-thumb__title{
+    padding: 50px 160px 30px;
+  }
+  [data-scrim-top]:before{
+      background: -moz-linear-gradient(bottom, #252525 10%, rgba(0, 0, 0, 0) 35%);
+      background: -webkit-gradient(linear, left bottom, left bottom, color-stop(0%, #252525), color-stop(35%, rgba(0, 0, 0, 0)));
+      background: -webkit-linear-gradient(bottom, #252525 10%, rgba(0, 0, 0, 0) 35%);
+      background: -o-linear-gradient(bottom, #252525 10%, rgba(0, 0, 0, 0) 35%);
+      background: -ms-linear-gradient(bottom, #252525 10%, rgba(0, 0, 0, 0) 35%);
+      background: linear-gradient(to top, #252525 10%, rgba(0, 0, 0, 0) 35%);
+      opacity: 0.9;
+
+  }
+  .flickity-prev-next-button:before {
+    font-size: 2em;
+  }
+  .flickity-prev-next-button.previous{
+    left:30px;
+  }
+  .flickity-prev-next-button.next{
+    right:30px;
+  }
+}
+
+/* V-bag bg */
+
+@media (max-width:768px) {
+  .v-bag .background-image-holder {
+    background-position: 27% 50% !important;
+  }
+}
+
+@media (max-width:768px) {
+  .bg-right .background-image-holder {
+    background-position: 80% 50% !important;
+  }
+}

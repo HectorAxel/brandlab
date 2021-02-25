@@ -1,0 +1,374 @@
+/*! Place your custom styles here */
+nav#menu1 {
+  padding: 10px 0 18px;
+}
+
+#menu1 .col-md-1.col-sm-2.hidden-xs {
+  padding: 0;
+}
+
+#menu1 .button-section {
+  margin-top: 16px;
+}
+
+img.logo.logo-mob {
+  width: 120px;
+  margin-bottom: 14px;
+  max-height: none;
+}
+img.logo.logo-desk {
+  width: 100px;
+  max-height: none;
+}
+a.btn.btn--primary.type--uppercase {
+  background-color: #bb162b;
+  border: none;
+}
+a {
+  color: #bb162b;
+}
+h1 {
+  font-weight: bold;
+}
+h2 {
+  margin-bottom: 10px;
+  line-height: 1.1;
+  font-size: 34px;
+}
+@media (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+}
+
+.video-play-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.video-play-icon:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+.video-play-icon:before {
+  top: 46%;
+}
+
+.brand-lab-logo {
+  max-width: 160px;
+}
+
+.capitulo:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.capitulo:hover .lead {
+  color: inherit;
+  /* text-decoration: underline; */
+}
+
+.capitulo .readmore {
+  color: #bb162b;
+  margin-top: 10px;
+  font-size: 0.96em;
+}
+
+.capitulo:hover .readmore {
+  text-decoration: underline;
+}
+
+.capitulo h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.capitulo h2:before {
+  content: "";
+  display: inline-block;
+  background: #bb162b;
+  width: 30px;
+  height: 4px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+.switchable .switchable__text {
+  margin-top: 0;
+}
+.capitulo span {
+  display: block;
+  font-weight: bold;
+  margin-top: 8px;
+  font-size: 34px;
+  margin-bottom: 18px;
+}
+
+.capitulo .lead {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+/* FOOTER */
+
+footer.footer-7 {
+  padding: 20px;
+}
+ul.logos {
+  margin-top: 20px;
+}
+ul.logos li a img {
+  height: 50px;
+}
+ul.logos li {
+  display: block;
+}
+ul.logos li:first-child {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  #menu1 .container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  /* FOOTER */
+
+  ul.logos li {
+    display: inline-block;
+  }
+  ul.logos {
+    margin-top: 0;
+  }
+  ul.logos li a img {
+    height: 40px;
+  }
+  ul.logos li:first-child {
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+}
+.brandlab-logo {
+  height: 42px;
+  position: relative;
+  top: -2px;
+  margin: 0;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  width: 100%;
+  background: #000000cf;
+  height: 100vh;
+  top: 0;
+  z-index: 10;
+  overflow: scroll;
+  padding: 15px 0;
+}
+.popup .gallery {
+  max-width: calc(100% - 90px);
+  margin: 0 auto;
+}
+.popup .gallery h2 {
+  color: #fff;
+  font-size: 23px;
+  max-width: 1000px;
+  margin: 0 auto 10px;
+}
+@media (min-width: 600px) {
+  .popup .gallery h2 {
+    font-size: 32px;
+  }
+}
+
+.gallery h2:before {
+  content: "";
+  display: inline-block;
+  background: #bb162b;
+  width: 30px;
+  height: 4px;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-right: 15px;
+}
+
+.popup .gallery .photo {
+  position: relative;
+  padding-bottom: 30px;
+  max-width: 1000px;
+  margin: 0 auto 10px;
+}
+.photo:after {
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  content: "";
+  left: 0;
+  bottom: 20px;
+}
+.popup .gallery img {
+  max-height: 700px;
+  margin: 0 auto 10px;
+  display: block;
+}
+.popup .footer-text p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+i.close {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  top: 10px;
+  right: 0;
+  cursor: pointer;
+  display: block;
+  transform: rotate(45deg);
+  z-index: 11;
+}
+
+i.close:after {
+  background: #fff;
+  height: 4px;
+  width: 34px;
+  position: absolute;
+  transform: rotate(90deg);
+  content: "";
+  top: 20px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+
+i.close:before {
+  background: #fff;
+  height: 4px;
+  width: 34px;
+  position: absolute;
+  transform: rotate(0deg);
+  content: "";
+  top: 20px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+.icon-gallery {
+  background-image: url(../../img/common/gallery.png);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: center;
+  cursor: pointer;
+}
+#popup .capitulo {
+  cursor: pointer;
+}
+.intro-title {
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+}
+.intro {
+  padding-top: 7.42857143rem;
+}
+#menu1 .ds-logo {
+  height: 43px;
+  position: relative;
+  left: -7px;
+  top: 5px;
+}
+section {
+  padding-top: 7.42857143em !important;
+  padding-bottom: 7.42857143em;
+  position: relative;
+}
+
+section:after {
+  content: "";
+  width: calc(100% - 150px);
+  height: 1px;
+  background: #bb202b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+@media (min-width: 970px) {
+  section:after {
+    width: 970px;
+  }
+}
+.last:after {
+  display: none;
+}
+
+.first div[class*="col-"] .video-cover iframe {
+  min-height: calc(67vw - 30px) !important;
+  max-height: 570px;
+}
+.first .video-cover.border--round {
+  max-height: 570px;
+}
+.social-list {
+  position: relative;
+  top: 10px;
+}
+
+.header-logos-one {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logos-one .ds-logo {
+  height: 60px;
+  position: relative;
+  top: 18px;
+}
+.ds-buttons {
+  padding: 40px;
+}
+.ds-buttons .btn {
+  width: 100%;
+}
+.ds-buttons .btn:not(:last-child) {
+  margin-bottom: 20px;
+}
+.ds-buttons {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  background: url(../../img/ds/buttons.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ds-buttons .heading-block {
+  margin-bottom: 32px;
+}
+
+@media (min-width: 530px) {
+  .ds-buttons .btn:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+  .ds-buttons .btn {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .post-ds-buttons {
+    margin-top: 90px;
+  }
+}

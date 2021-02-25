@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HobbyConsolas. World of Warcraft: Battle for Azeroth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        var getOneTrustGroupConsent = function(groupId){
+          var pair = document.cookie.match(new RegExp("OptanonAlertBoxClosed=([^;]+)"));
+          if (!pair) {
+            return "";
+          }
+          var pair = document.cookie.match(new RegExp("OptanonConsent=([^;]+)"));
+          if (!!pair) {
+            var consentString = decodeURIComponent(pair[1]);
+            var reg = new RegExp( "groups=([^&amp;#]*)", "i" );
+            var string = reg.exec(consentString);
+            if (string) {
+              var consentsArray = [];
+              var stringConsentsArray = string[1].split(",");
+              for (var i in stringConsentsArray) {
+                var aux = stringConsentsArray[i].split(":");
+                consentsArray[aux[0]] = aux[1];
+              }
+              return consentsArray[groupId] ? consentsArray[groupId] : "";
+            }
+          }
+          return "";
+        };
+    </script>
+    <script src="https://cdn.cookielaw.org/consent/813c920f-0d06-4dac-bfd4-6437db164809.js" charset="UTF-8"></script>
+</head>
+
+<body class="">
+    <header>
+        <div class="hc-logo">
+            <a href="https://www.hobbyconsolas.com/">
+                <img src="../img/battle-for-azeroth/logo_hc.svg" alt="HobbyConsolas" />
+            </a>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="main-left"></div>
+        <div class="main-center">
+           
+        </div>
+        <div class="main-right"></div>
+        <div id="particles"></div>
+        <div class="main-buttons">
+            <a class="wow-logo" href="https://worldofwarcraft.com/es-es/battle-for-azeroth">
+                <img src="../img/battle-for-azeroth/logo.png" alt="World of Warcraft. Battle for Azeroth" />
+            </a>
+            <h1>
+                ¿En qué bando vas a luchar?
+            </h1>
+            <div class="container container-buttons">
+                <a class="faction-button" id="button-horde">
+                    <span class="faction-button-inner"></span>
+                    <span class="faction-button-text">¡Por la Horda!</span>
+                </a>
+                <a class="faction-button" id="button-alliance">
+                    <span class="faction-button-inner"></span>
+                    <span class="faction-button-text">¡Por la Alianza!</span>
+                </a>
+            </div>
+        </div>
+        <div class="main-close"></div>
+        <div class="main-video">
+            
+        </div>
+    </div>
+    <div class="selector">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="intro">
+                        Azeroth pagó un alto precio por terminar con la apocalíptica cruzada de la Legión; no obstante, cuando aún no se han curado las heridas del mundo, la maltrecha confianza entre la Alianza y la Horda podría tardar aún más en cicatrizar. Con este conflicto milenario reavivado, es hora de reunir a tus aliados y liderar la causa de tu facción, pues el futuro de Azeroth se forjará en las llamas de la guerra. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="credits">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                </div>
+            </div>
+        </div>
+        <footer class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <a class="blizzard-logo" href="https://worldofwarcraft.com/es-es/battle-for-azeroth" target="_blank">
+                        Patrocinado por
+                        <img src="../img/battle-for-azeroth/blizzard.svg" alt="Blizzard" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 pegi-info">
+                    <a href="http://www.pegi.info/">
+                        <img src="../img/battle-for-azeroth/pegi.png" title="" alt="Pegi 12">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <a href="https://www.hobbyconsolas.com/" class="logo-footer">
+                        <img src="../img/battle-for-azeroth/logo-hc-new-negativo.svg" alt="HobbyConsolas" /> ¡Videojuegos y mucho más!
+                    </a>
+                    <div class="social-nav">
+                        <ul>
+                            <li>
+                                <a class="icon-hc-facebook" href="https://www.facebook.com/Hobbyconsolas" title="Ir a facebook" target="_blank"></a>
+                            </li>
+                            <li>
+                                <a class="icon-hc-twitter" href="https://twitter.com/Hobby_Consolas" title="Ir a twitter" target="_blank"></a>
+                            </li>
+                            <li>
+                                <a class="icon-hc-youtube" href="https://www.youtube.com/user/HobbynewsTV" title="Ir a youtube" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12 footer-bottom">
+                    <ul class="legal-list">
+                        <li>
+                            Sobre
+                            <a href="https://www.hobbyconsolas.com/" title="Sobre Hobby Consolas" rel="home">
+                                <img src="../img/battle-for-azeroth/logo-hc-new-negativo.svg" alt="Sobre Hobby Consolas">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.hobbyconsolas.com/quienes-somos" title="Quiénes somos" target="_blank">Quiénes somos</a>
+                        </li>
+                        <li>
+                            <a href="https://www.hobbyconsolas.com/condiciones-de-uso" title="Condiciones de uso" target="_blank">Condiciones de uso</a>
+                        </li>
+                        <li>
+                            <a href="https://www.hobbyconsolas.com/politica-de-privacidad" title="Política de privacidad" target="_blank">Política de privacidad</a>
+                        </li>
+                        <li>
+                            <a href="https://www.hobbyconsolas.com/politica-cookies" title="Política de cookies" target="_blank">Política de cookies</a>
+                        </li>
+                    </ul>
+                    <div class="axel-footer">
+                        <a href="http://www.axelspringer.es/" title="Axel Springer España">
+                            <img src="../img/battle-for-azeroth/axelspringer-negativo-retina.png" alt="Logo Axel Springer">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/particles.js"></script>
+
+    <script>
+        (function () {
+            document.addEventListener('DOMContentLoaded', function (e) {
+                var code = document.createElement('script');
+                code.src = 'js/main.js';
+                var script = document.getElementsByTagName('script')[0];
+                script.parentNode.insertBefore(code, script);
+            });
+        }());
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1777283-20"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-1777283-20'); </script>
+
+    <!-- Begin comScore Tag --> 
+    <script> var _comscore = _comscore || []; _comscore.push({ c1: "2", c2: "6034990", cs_ucfr: getOneTrustGroupConsent(3) }); (function () { var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el); })(); </script>
+    <noscript>
+        <img style="height:1px !important;width:1px !important" src="http://b.scorecardresearch.com/p?c1=2&c2=6034990&cs_ucfr=0&cv=2.0&cj=1" /> 
+    </noscript>
+    <!-- End comScore Tag -->
+
+</body>
+
+</html>
