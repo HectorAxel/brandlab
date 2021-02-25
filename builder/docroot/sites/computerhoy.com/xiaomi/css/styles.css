@@ -1073,6 +1073,7 @@ header.mini {
   position: absolute;
   top: 110px;
   width: 100%;
+  max-width: 900px;
 }
 .move-down img{
   width: 80px;
