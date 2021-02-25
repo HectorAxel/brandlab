@@ -1001,14 +1001,18 @@ header {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 10px;
   align-items: center;
+}
+@media only screen and (min-width: 400px) {
+  header {
+    padding: 0 50px;
+  }
 }
 @media only screen and (min-width: 980px) {
   header {
     padding: 0 100px;
   }
-
 }
 header .xiaomi-logo {
   cursor: pointer;
@@ -1123,6 +1127,7 @@ header.mini {
   font-size: 20px;
   padding: 0 10px;
   box-sizing: border-box;
+  text-shadow: 0 0 3px #000;
 }
 .hero p {
   color: #fff;
