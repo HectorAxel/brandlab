@@ -1030,7 +1030,7 @@ header .xiaomi-logo:focus {
 }
 header .xiaomi-logo img {
   width: 54px;
-  padding: 6px;
+  padding: 6px 6px 6px 0;
   box-sizing: border-box;
 }
 header.mini {
