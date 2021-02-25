@@ -999,6 +999,16 @@ header {
   z-index: 120;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+}
+@media only screen and (min-width: 980px) {
+  header {
+    padding: 0 100px;
+  }
+
 }
 header .xiaomi-logo {
   cursor: pointer;
@@ -1063,6 +1073,25 @@ header.mini {
 .move-down img{
   width: 80px;
 }
+.social li {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.social ul {
+  padding: 0;
+  display: flex;
+}
+
+.social li a {
+  text-decoration: none;
+}
+
+.social li a i:before {
+  color: #f76504;
+  font-size: 18px;
+}
 @media only screen and (min-width: 980px) {
   .hero {
     background-position: center;
@@ -1072,6 +1101,9 @@ header.mini {
   }
   header.mini .xiaomi-logo img {
     width: 80px;
+  }
+  header.mini .social li a i:before {
+    font-size: 25px;
   }
 }
 .hero h1 {
@@ -1378,3 +1410,4 @@ h5,
 h6 {
   font-family: Oxygen, sans-serif;
 }
+
