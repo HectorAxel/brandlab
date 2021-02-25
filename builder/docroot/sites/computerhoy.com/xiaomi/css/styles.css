@@ -1433,14 +1433,14 @@ h6 {
   flex-wrap: wrap;
   justify-content: center;
   text-decoration: none;
+  align-items: center;
 }
 
 .visit a p {
-  width: 100%;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  margin: 0 0 5px;
+  color: #fff;
 }
 
 .visit {
@@ -1448,5 +1448,7 @@ h6 {
   bottom: 10px;
   right: 0;
   z-index: 3;
-  width: 100px;
+  width: 140px;
+  background: #f76504;
+  border-radius: 6px 0 0 6px;
 }
