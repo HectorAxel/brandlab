@@ -1459,13 +1459,11 @@ h6 {
   width: 20px;
 }
 i.book-icon {
-  background: url(./img/book.png);
+  background: url(../img/book-1.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 22px;
   height: 27px;
   display: block;
-  filter: invert(49%) sepia(76%) saturate(3519%) hue-rotate(
-359deg
-) brightness(98%) contrast(98%);
+  filter: invert(49%) sepia(76%) saturate(3519%) hue-rotate(359deg) brightness(98%) contrast(98%);
 }
