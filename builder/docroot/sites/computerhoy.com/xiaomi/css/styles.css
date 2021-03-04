@@ -1111,6 +1111,10 @@ header.mini {
   header.mini .social li a i:before {
     font-size: 25px;
   }
+  .book-icon{
+    width: 28px;
+    height: 34px;
+  }
 }
 .hero h1 {
   font-weight: 700;
