@@ -1039,9 +1039,8 @@ header.mini {
 }
 
 .hero {
-  background: url(../img/image1.jpg) no-repeat;
+  background: url(../img/back.jpg) no-repeat;
   background-size: cover;
-  background-position-x: -250px;
   height: calc(100vh - 49px);
   min-height: 500px;
   text-align: center;
