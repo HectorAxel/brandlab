@@ -1095,7 +1095,7 @@ header.mini {
 }
 
 .social li a i:before {
-  color: #f76504;
+  color: #ffc915;
   font-size: 18px;
 }
 @media only screen and (min-width: 980px) {
@@ -1120,8 +1120,9 @@ header.mini {
   width: 100%;
   margin: 0 0 20px;
   padding: 0 10px;
-  text-shadow: 0 0 3px #000;
   box-sizing: border-box;
+  text-shadow: -2px -2px 1px #fff, 2px 2px 0px #c34f14;
+  color: #ffc915;
 }
 .hero h3 {
   width: 100%;
@@ -1443,7 +1444,7 @@ h6 {
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
 .visit {
@@ -1452,7 +1453,7 @@ h6 {
   right: 0;
   z-index: 3;
   width: 140px;
-  background: #f76504;
+  background: #ffc915;
   border-radius: 6px 0 0 6px;
 }
 .visit img{
