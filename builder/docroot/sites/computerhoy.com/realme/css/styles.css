@@ -1039,7 +1039,7 @@ header.mini {
 }
 
 .hero {
-  background: url(../img/back.jpg) no-repeat;
+  background: url(../img/back.png) no-repeat;
   background-size: cover;
   background-position: center;
   height: calc(100vh - 49px);
@@ -1304,9 +1304,9 @@ header.mini {
   text-decoration: none;
   font-size: 0.8em;
   text-transform: uppercase;
-  background: #f76504;
-  color: #fff;
-  border: 1px solid #fff;
+  background: #000;
+  color: #ffc915;
+  border: 1px solid #ffc915;
   padding: 6px 30px;
   height: 40px;
   border-radius: 20px;
