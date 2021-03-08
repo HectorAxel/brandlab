@@ -1062,6 +1062,7 @@ header.mini {
   flex-wrap: wrap;
   position: relative;
   overflow: hidden;
+  border-bottom: 5px solid #ffc915;
 }
 .move-down {
   -webkit-transition: opacity 0.3s ease-in-out, -webkit-transform 0.6s ease-in-out;
@@ -1250,6 +1251,7 @@ header.mini {
 }
 .entry {
   padding: 0 0 20px;
+  border-bottom: 5px solid #ffc915;
 }
 .entry .container {
   display: -webkit-box;
@@ -1357,10 +1359,8 @@ header.mini {
     -webkit-box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.8);
   }
-  .entry-parallax + .entry {
+  .entry-parallax{
     padding: 118px 0;
-    border-top: 5px solid #ffc915;
-    border-bottom: 5px solid #ffc915
   }
 }
 footer {
