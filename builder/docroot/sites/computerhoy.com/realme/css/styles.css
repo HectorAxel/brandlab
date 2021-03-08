@@ -991,8 +991,7 @@ table {
 header {
   background: #fff;
   text-align: center;
-  -webkit-box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.4);
+  border-bottom: 5px solid #ffc915;
   position: fixed;
   top: 0;
   width: 100%;
@@ -1305,9 +1304,8 @@ header.mini {
   text-decoration: none;
   font-size: 0.8em;
   text-transform: uppercase;
-  background: #000;
-  color: #ffc915;
-  border: 1px solid #ffc915;
+  background: #ffc915;
+  color: #000;
   padding: 6px 30px;
   height: 40px;
   border-radius: 20px;
@@ -1318,9 +1316,8 @@ header.mini {
   transition: all 0.2s ease-in-out;
 }
 .entry__more:hover {
-  background-color: #fff;
-  color: #f76504;
-  border-color: #f76504;
+  background-color: #000;
+  color: #ffc915;
 }
 @media only screen and (min-width: 48em) {
   .entry {
@@ -1361,12 +1358,13 @@ header.mini {
     box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.8);
   }
   .entry-parallax + .entry {
-    padding: 120px 0;
+    padding: 118px 0;
+    border-top: 5px solid #ffc915;
+    border-bottom: 5px solid #ffc915
   }
 }
 footer {
   padding: 80px 0 40px;
-  border-top: 4px solid #f76504;
 }
 .footer-logos {
   list-style: none;
