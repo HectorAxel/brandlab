@@ -1014,21 +1014,21 @@ header {
     padding: 0 100px;
   }
 }
-header .xiaomi-logo {
+header .realme-logo {
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header .xiaomi-logo p {
+header .realme-logo p {
   font-size: 20px;
   margin: 0;
 }
-header .xiaomi-logo:active,
-header .xiaomi-logo:focus {
+header .realme-logo:active,
+header .realme-logo:focus {
   outline: 0;
 }
-header .xiaomi-logo img {
+header .realme-logo img {
   width: 54px;
   padding: 6px 6px 6px 0;
   box-sizing: border-box;
@@ -1102,7 +1102,7 @@ header.mini {
   .move-down {
     top: inherit;
   }
-  header.mini .xiaomi-logo img {
+  header.mini .realme-logo img {
     width: 80px;
   }
   header.mini .social li a i:before {
@@ -1221,7 +1221,7 @@ header.mini {
   height: 40px;
   margin-right: 12px;
 }
-.hero__brandlab .xiaomi-logo {
+.hero__brandlab .realme-logo {
   vertical-align: middle;
   display: inline;
   height: 54px;
