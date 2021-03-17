@@ -1,23 +1,23 @@
 @font-face {
   font-family: 'Gilroy-Black';
-  src: url('../fonts/Gilroy-Black.otf');
-  src: url('../fonts/Gilroy-Black.otf') format('otf');
+  src: url('../../fonts/realme/Gilroy-Black.otf');
+  src: url('../../fonts/realme/Gilroy-Black.otf') format('otf');
   font-weight: bolder;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Gilroy-Bold';
-  src: url('../fonts/Gilroy-Bold.otf');
-  src: url('../fonts/Gilroy-Bold.otf') format('otf');
+  src: url('../../fonts/realme/Gilroy-Bold.otf');
+  src: url('../../fonts/realme/Gilroy-Bold.otf') format('otf');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Gilroy-Regular';
-  src: url('../fonts/Gilroy-Regular.otf');
-  src: url('../fonts/Gilroy-Regular.otf') format('otf');
+  src: url('../../fonts/realme/Gilroy-Regular.otf');
+  src: url('../../fonts/realme/Gilroy-Regular.otf') format('otf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1053,7 +1053,7 @@ header .realme-logo:focus {
   outline: 0;
 }
 header .realme-logo img {
-  width: 54px;
+  width: 100px;
   padding: 6px 6px 6px 0;
   box-sizing: border-box;
 }
