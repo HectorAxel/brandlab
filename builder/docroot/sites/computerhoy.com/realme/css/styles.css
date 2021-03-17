@@ -1,23 +1,23 @@
 @font-face {
-  font-family: 'Gilroy-Regular';
-  src: url('https://builder.axelspringer.es/fonts/realme/Gilroy-Black.otf');
-  src: url('https://builder.axelspringer.es/fonts/realme/Gilroy-Black.otf') format('otf');
+  font-family: 'Gilroy-Black';
+  src: url('../fonts/Gilroy-Black.otf');
+  src: url('../fonts/Gilroy-Black.otf') format('otf');
   font-weight: bolder;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Gilroy-Bold';
-  src: url('https://builder.axelspringer.es/fonts/realme/Gilroy-Bold.otf');
-  src: url('https://builder.axelspringer.es/fonts/realme/Gilroy-Bold.otf') format('otf');
+  src: url('../fonts/Gilroy-Bold.otf');
+  src: url('../fonts/Gilroy-Bold.otf') format('otf');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Gilroy-Regular';
-  src: url('https://builder.axelspringer.es/fonts/realme/Gilroy-Regular.otf');
-  src: url('https://builder.axelspringer.es/fonts/realme/Gilroy-Regular.otf') format('otf');
+  src: url('../fonts/Gilroy-Regular.otf';
+  src: url('../fonts/Gilroy-Regular.otf') format('otf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
