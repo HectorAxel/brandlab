@@ -1148,6 +1148,7 @@ header.mini {
   box-sizing: border-box;
   text-shadow: -2px -2px 1px #fff, 2px 2px 0px #c34f14;
   color: #ffc915;
+  font-family: "Gilroy-Bold";
 }
 .hero h3 {
   width: 100%;
@@ -1300,6 +1301,7 @@ header.mini {
 .entry__text h2 a {
   color: inherit;
   text-decoration: none;
+  font-family: "Gilroy-Bold";
 }
 .entry__text h2 a:hover {
   text-decoration: underline;
