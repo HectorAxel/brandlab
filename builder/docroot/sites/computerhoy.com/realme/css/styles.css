@@ -1304,7 +1304,7 @@ header .realme-logo img {
 }
 @media only screen and (min-width: 48em) {
   .entry {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   .entry .container {
     -ms-flex-wrap: nowrap;
@@ -1336,9 +1336,6 @@ header .realme-logo img {
   .entry-parallax .entry__text {
     background: transparent;
     padding: 30px 70px 48px;
-  }
-  .entry-parallax{
-    padding: 118px 0;
   }
 }
 footer {
@@ -1373,6 +1370,13 @@ footer {
   }
   .footer-logos img:hover {
     opacity: 0.8;
+  }
+  article.entry.entry-left.normal{
+    background: #000;
+  }
+  article.entry.entry-left.normal .entry__text h2,
+  article.entry.entry-left.normal .entry__text p {
+    color: #fff;
   }
 }
 body {
