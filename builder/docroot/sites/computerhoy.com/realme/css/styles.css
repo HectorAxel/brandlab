@@ -1099,7 +1099,7 @@ header .realme-logo img {
   margin: 0 0 20px;
   padding: 0 10px;
   box-sizing: border-box;
-  color: #ffc915;
+  color: #fff;
   font-family: "Gilroy-BoldItalic";
 }
 .hero h3 {
@@ -1363,6 +1363,7 @@ footer {
   }
   article.entry.entry-left.normal{
     background: #000;
+    padding: 56px 0;
   }
   article.entry.entry-left.normal .entry__text h2,
   article.entry.entry-left.normal .entry__text p {
