@@ -33,7 +33,7 @@ template {
   display: none;
 }
 html {
-  font-family: sans-serif;
+  font-family: "Gilroy-Regular";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -1051,7 +1051,6 @@ header .realme-logo img {
   flex-wrap: wrap;
   position: relative;
   overflow: hidden;
-  border-bottom: 5px solid #ffc915;
 }
 .move-down {
   -webkit-transition: opacity 0.3s ease-in-out, -webkit-transform 0.6s ease-in-out;
@@ -1256,11 +1255,6 @@ header .realme-logo img {
   text-decoration: none;
   font-family: "Gilroy-Regular";
 }
-.entry__text h2 a:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #f76504;
-  text-decoration-color: #f76504;
-}
 .entry__text p {
   margin-bottom: 30px;
   color: #000;
@@ -1304,7 +1298,7 @@ header .realme-logo img {
 }
 @media only screen and (min-width: 48em) {
   .entry {
-    padding: 50px 0;
+    padding: 20px 0;
   }
   .entry .container {
     -ms-flex-wrap: nowrap;
@@ -1421,10 +1415,16 @@ h6 {
 }
 
 .visit a p {
+
   font-size: 14px;
   line-height: 16px;
   text-align: center;
   color: #111;
+  display: flex;
+  margin: 0;
+  padding: 10px 0;
+  align-items: center;
+
 }
 
 .visit {
@@ -1437,8 +1437,8 @@ h6 {
   border-radius: 6px 0 0 6px;
 }
 .visit img{
-
-  width: 20px;
+  width: 15px;
+  margin-left: 7px;
 }
 i.book-icon {
   background: url(../img/book.png);
