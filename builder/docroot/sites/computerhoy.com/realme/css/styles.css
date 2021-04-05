@@ -1263,6 +1263,7 @@ header .realme-logo img {
 }
 .entry__text p {
   margin-bottom: 30px;
+  color: #000;
 }
 .entry__img {
   overflow: hidden;
@@ -1284,8 +1285,7 @@ header .realme-logo img {
 .entry__more {
   display: inline-block;
   text-decoration: none;
-  font-size: 0.8em;
-  text-transform: uppercase;
+  font-size: 1rem;
   background: #ffc915;
   color: #111;
   padding: 6px 30px;
@@ -1296,6 +1296,7 @@ header .realme-logo img {
   line-height: 26px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  font-family: "Gilroy-Regular";
 }
 .entry__more:hover {
   background-color: #111;
@@ -1333,11 +1334,8 @@ header .realme-logo img {
     order: 0;
   }
   .entry-parallax .entry__text {
-    background: #fff;
+    background: transparent;
     padding: 30px 70px 48px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.8);
   }
   .entry-parallax{
     padding: 118px 0;
