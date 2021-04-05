@@ -1000,9 +1000,9 @@ table {
   }
 }
 header {
-  background: #fff;
+  background: #ffc915;
   text-align: center;
-  border-bottom: 5px solid #ffc915;
+  height: 56px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -1010,25 +1010,15 @@ header {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
-  padding: 0 10px;
+  justify-content: flex-end;
+  padding: 0 20px;
   align-items: center;
-}
-@media only screen and (min-width: 400px) {
-  header {
-    padding: 0 50px;
-  }
-}
-@media only screen and (min-width: 980px) {
-  header {
-    padding: 0 100px;
-  }
 }
 header .realme-logo {
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
 }
 header .realme-logo p {
   font-size: 20px;
@@ -1042,10 +1032,6 @@ header .realme-logo img {
   width: 100px;
   padding: 6px 6px 6px 0;
   box-sizing: border-box;
-}
-header.mini {
-  -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
 }
 
 .hero {
@@ -1106,22 +1092,12 @@ header.mini {
 }
 
 .social li a i:before {
-  color: #ffc915;
+  color: #000;
   font-size: 18px;
 }
 @media only screen and (min-width: 980px) {
   .move-down {
     top: inherit;
-  }
-  header.mini .realme-logo img {
-    width: 80px;
-  }
-  header.mini .social li a i:before {
-    font-size: 25px;
-  }
-  .book-icon{
-    width: 28px;
-    height: 34px;
   }
 }
 .hero h1 {
