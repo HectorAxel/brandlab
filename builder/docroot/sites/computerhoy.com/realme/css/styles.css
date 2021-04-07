@@ -1333,10 +1333,16 @@ header .realme-logo img {
   }
   .entry-parallax .entry__text {
     padding: 30px 70px 48px;
+    border-radius: 6px;
+  }
+  .entry-parallax .entry__text h2, 
+  .entry-parallax .entry__text p{
+    color: #fff;
   }
 }
 footer {
   padding: 30px 0 20px;
+  border-top: 3px solid #fac915;
 }
 .footer-logos {
   list-style: none;
@@ -1368,7 +1374,7 @@ footer {
   }
   article.entry.entry-left.normal{
     background: #000;
-    padding: 56px 0;
+    padding: 119px 0;
   }
   article.entry.entry-left .entry__text h2,
   article.entry.entry-left .entry__text p {
