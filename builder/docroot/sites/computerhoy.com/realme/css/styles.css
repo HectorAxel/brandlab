@@ -1009,8 +1009,7 @@ header {
 header .realme-logo {
   cursor: pointer;
   position: absolute;
-  right: 0;
-  left: 0;
+  left: 10px;
 }
 header .realme-logo p {
   font-size: 20px;
@@ -1226,6 +1225,10 @@ header .realme-logo img {
   .hero .close {
     left: calc(50% - 65px);
   }
+  header .realme-logo{
+    left: 0;
+    right: 0;
+  }
 }
 .entry {
   padding: 0 0 20px;
@@ -1272,7 +1275,7 @@ header .realme-logo img {
   height: 100%;
 }
 .entry-parallax .entry__text {
-  background: #fff;
+  background: #000;
   padding: 30px;
 }
 .entry__more {
@@ -1297,7 +1300,7 @@ header .realme-logo img {
 }
 @media only screen and (min-width: 48em) {
   .entry {
-    padding: 20px 0;
+    padding: 50px 0;
   }
   .entry .container {
     -ms-flex-wrap: nowrap;
@@ -1327,7 +1330,6 @@ header .realme-logo img {
     order: 0;
   }
   .entry-parallax .entry__text {
-    background: transparent;
     padding: 30px 70px 48px;
   }
 }
@@ -1345,6 +1347,7 @@ footer {
   margin: 0 0 20px;
 }
 @media only screen and (min-width: 48em) {
+
   .footer-logos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1365,8 +1368,8 @@ footer {
     background: #000;
     padding: 56px 0;
   }
-  article.entry.entry-left.normal .entry__text h2,
-  article.entry.entry-left.normal .entry__text p {
+  article.entry.entry-left .entry__text h2,
+  article.entry.entry-left .entry__text p {
     color: #fff;
   }
 }
