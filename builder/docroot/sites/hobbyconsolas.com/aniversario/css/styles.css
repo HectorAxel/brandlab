@@ -17,9 +17,11 @@ img.logo.logo-dark {
 .open {
   position: relative;
 }
+
 .open img {
   width: 100%;
 }
+
 .large,
 .square {
   background-position: center;
@@ -30,7 +32,8 @@ img.logo.logo-dark {
 }
 
 .large .block-text,
-.square .block-text {
+.square .block-text,
+.open .block-text {
   position: absolute;
   top: 0;
   color: #fff;
@@ -38,10 +41,12 @@ img.logo.logo-dark {
   text-align: center;
   font-size: 21px;
 }
+
 .open .block-text {
   top: inherit;
   bottom: 0;
 }
+
 .large .block-text p,
 .square .block-text p {
   font-size: 21px;
