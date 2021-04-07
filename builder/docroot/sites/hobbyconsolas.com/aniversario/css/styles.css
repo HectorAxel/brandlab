@@ -17,6 +17,9 @@ img.logo.logo-dark {
 .open {
   position: relative;
 }
+.open img {
+  width: 100%;
+}
 .large,
 .square {
   background-position: center;
