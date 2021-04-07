@@ -17,6 +17,9 @@ img.logo.logo-dark {
 .open {
   position: relative;
 }
+.open .subtitle {
+  display: none;
+}
 
 .open img {
   width: 100%;
@@ -51,17 +54,42 @@ img.logo.logo-dark {
 .large .block-text p,
 .square .block-text p {
   font-size: 21px;
+  font-family: "Roboto Regular";
 }
 
 @media only screen and (min-width: 48em) {
+  .open .subtitle {
+    display: block;
+  }
+
   .contain {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
+
   .large {
     width: 100%;
   }
+
   .square {
-    width: 50%;
+    width: 49.5%;
   }
+}
+@media only screen and (min-width: 75em) {
+  .large,
+  .square {
+    min-height: 460px;
+  }
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/robotoslab-regular.eot");
+  src: url("../fonts/robotoslab-regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/robotoslab-regular.woff2") format("woff2"),
+    url("../fonts/robotoslab-regular.woff") format("woff"),
+    url("../fonts/robotoslab-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
