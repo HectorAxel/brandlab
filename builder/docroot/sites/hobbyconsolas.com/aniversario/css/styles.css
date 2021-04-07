@@ -45,7 +45,7 @@ img.logo.logo-dark {
 .square .block-text,
 .open .block-text {
   position: absolute;
-  top: 20;
+  top: 20px;
   color: #fff;
   width: 100%;
   text-align: center;
