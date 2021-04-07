@@ -34,12 +34,18 @@ img.logo.logo-dark {
   background-repeat: no-repeat;
   margin-bottom: 10px;
 }
+.large a,
+.square a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
 .large .block-text,
 .square .block-text,
 .open .block-text {
   position: absolute;
-  top: 0;
+  top: 20;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -48,11 +54,7 @@ img.logo.logo-dark {
 
 .open .block-text {
   top: inherit;
-  bottom: 0;
-}
-.open .subtitle {
-  font-size: 20px;
-  line-height: 25px;
+  bottom: 40px;
 }
 
 .large .block-text p,
@@ -86,9 +88,10 @@ img.logo.logo-dark {
   .large .block-text p,
   .square .block-text p,
   .open p {
-    font-size: 25px;
-    line-height: 34px;
+    font-size: 45px;
+    line-height: 49px;
     font-family: "Roboto Regular";
+    margin: 0 0 10px;
   }
 }
 @media only screen and (min-width: 75em) {
