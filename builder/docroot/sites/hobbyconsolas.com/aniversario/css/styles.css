@@ -3,6 +3,7 @@ header {
   position: sticky;
   top: 0;
   background: #061930;
+  z-index: 1;
 }
 
 header a {
@@ -67,10 +68,6 @@ img.logo.logo-dark {
 }
 
 @media only screen and (min-width: 60em) {
-  .open .subtitle {
-    display: block;
-  }
-
   .contain {
     display: flex;
     flex-wrap: wrap;
@@ -85,19 +82,32 @@ img.logo.logo-dark {
     width: 49.5%;
   }
 
+  .large,
+  .square {
+    min-height: 460px;
+  }
+
   .large .block-text p,
   .square .block-text p,
   .open p {
-    font-size: 45px;
-    line-height: 49px;
+    font-size: 55px;
+    line-height: 60px;
     font-family: "Roboto Regular";
-    margin: 0 0 10px;
+    margin: 0 0 20px;
+  }
+
+  .open .subtitle {
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 963px;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 75em) {
   .large,
   .square {
-    min-height: 460px;
+    min-height: 600px;
   }
 }
 
