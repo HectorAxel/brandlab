@@ -13,3 +13,33 @@ header a {
 img.logo.logo-dark {
   max-width: 215px;
 }
+
+.open {
+  position: relative;
+}
+.large,
+.square {
+  background-position: center;
+  position: relative;
+  min-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.large .block-text,
+.square .block-text {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 21px;
+}
+.open .block-text {
+  top: inherit;
+  bottom: 0;
+}
+.large .block-text p,
+.square .block-text p {
+  font-size: 21px;
+}
