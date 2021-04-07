@@ -55,7 +55,7 @@ img.logo.logo-dark {
 
 .open .block-text {
   top: inherit;
-  bottom: 40px;
+  bottom: 0px;
 }
 
 .large .block-text p,
@@ -72,6 +72,10 @@ img.logo.logo-dark {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .open .block-text {
+    bottom: 40px;
   }
 
   .large {
