@@ -1275,7 +1275,6 @@ header .realme-logo img {
   height: 100%;
 }
 .entry-parallax .entry__text {
-  background: #000;
   padding: 30px;
 }
 .entry__more {
@@ -1301,6 +1300,9 @@ header .realme-logo img {
 @media only screen and (min-width: 48em) {
   .entry {
     padding: 50px 0;
+  }
+  .entry-parallax .entry__text {
+    background: #000;
   }
   .entry .container {
     -ms-flex-wrap: nowrap;
