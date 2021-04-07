@@ -29,6 +29,7 @@ img.logo.logo-dark {
   min-height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 10px;
 }
 
 .large .block-text,
@@ -50,4 +51,17 @@ img.logo.logo-dark {
 .large .block-text p,
 .square .block-text p {
   font-size: 21px;
+}
+
+@media only screen and (min-width: 48em) {
+  .contain {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .large {
+    width: 100%;
+  }
+  .square {
+    width: 50%;
+  }
 }
