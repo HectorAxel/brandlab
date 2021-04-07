@@ -50,15 +50,21 @@ img.logo.logo-dark {
   top: inherit;
   bottom: 0;
 }
+.open .subtitle {
+  font-size: 20px;
+  line-height: 25px;
+}
 
 .large .block-text p,
 .square .block-text p,
 .open p {
-  font-size: 21px;
+  font-size: 25px;
+  line-height: 34px;
   font-family: "Roboto Regular";
+  padding: 0 20px;
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 60em) {
   .open .subtitle {
     display: block;
   }
@@ -75,6 +81,14 @@ img.logo.logo-dark {
 
   .square {
     width: 49.5%;
+  }
+
+  .large .block-text p,
+  .square .block-text p,
+  .open p {
+    font-size: 25px;
+    line-height: 34px;
+    font-family: "Roboto Regular";
   }
 }
 @media only screen and (min-width: 75em) {
