@@ -52,7 +52,8 @@ img.logo.logo-dark {
 }
 
 .large .block-text p,
-.square .block-text p {
+.square .block-text p,
+.open p {
   font-size: 21px;
   font-family: "Roboto Regular";
 }
