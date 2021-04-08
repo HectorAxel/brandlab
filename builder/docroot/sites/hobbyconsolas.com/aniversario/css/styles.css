@@ -91,10 +91,8 @@ img.logo.logo-dark {
 
   .contain section .block-text p,
   .open p {
-    font-size: 55px;
-    line-height: 60px;
-    font-family: "Roboto Regular";
-    margin: 0 0 20px;
+    font-size: 35px;
+    line-height: 40px;
   }
 
   .open .subtitle {
@@ -108,6 +106,11 @@ img.logo.logo-dark {
 @media only screen and (min-width: 75em) {
   .contain section {
     min-height: 600px;
+  }
+  .contain section .block-text p,
+  .open p {
+    font-size: 55px;
+    line-height: 60px;
   }
 }
 
