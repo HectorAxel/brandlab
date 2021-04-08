@@ -82,7 +82,7 @@ img.logo.logo-dark {
   }
 
   .contain section:nth-child(3n + 1),
-  .last {
+  .contain section.last {
     width: 100%;
   }
 
@@ -124,7 +124,7 @@ img.logo.logo-dark {
   .contain section:nth-child(3n + 3) {
     width: 49.7%;
   }
-  .last {
+  .contain section.last {
     width: 100%;
   }
 }
