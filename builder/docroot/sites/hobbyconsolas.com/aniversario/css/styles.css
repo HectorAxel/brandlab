@@ -17,6 +17,7 @@ img.logo.logo-dark {
 
 .open {
   position: relative;
+  margin-bottom: 10px;
 }
 .open .subtitle {
   display: none;
@@ -24,6 +25,7 @@ img.logo.logo-dark {
 
 .open img {
   width: 100%;
+  display: block;
 }
 
 .contain section {
@@ -74,11 +76,12 @@ img.logo.logo-dark {
     bottom: 40px;
   }
 
-  .contain section:nth-child(3n + 4) {
+  .contain section:nth-child(3n + 1) {
     width: 100%;
   }
 
-  .contain section:nth-child(2) {
+  .contain section:nth-child(3n + 2),
+  .contain section:nth-child(3n + 3) {
     width: 49.5%;
   }
 
@@ -103,8 +106,7 @@ img.logo.logo-dark {
   }
 }
 @media only screen and (min-width: 75em) {
-  .large,
-  .square {
+  .contain section {
     min-height: 600px;
   }
 }
