@@ -81,7 +81,8 @@ img.logo.logo-dark {
     bottom: 40px;
   }
 
-  .contain section:nth-child(3n + 1) {
+  .contain section:nth-child(3n + 1),
+  .last {
     width: 100%;
   }
 
