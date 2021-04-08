@@ -123,11 +123,6 @@ img.logo.logo-dark {
   .contain section:nth-child(3n + 3) {
     width: 49.7%;
   }
-  .contain section .block-text p,
-  .open p {
-    font-size: 55px;
-    line-height: 60px;
-  }
 }
 
 @font-face {
