@@ -1457,6 +1457,9 @@ i.book-icon {
   display: block;
   filter: invert(64%) sepia(76%) saturate(3519%) hue-rotate(359deg) brightness(98%) contrast(98%)
 }
+.social {
+  position: relative;
+}
 @font-face {
   font-family: 'Gilroy-BoldItalic';
   src: url('../fonts/Gilroy-BoldItalic.otf');
