@@ -57,12 +57,17 @@ img.logo.logo-dark {
   bottom: 0px;
 }
 
+.open .block-text .title {
+  margin-bottom: 15px;
+}
+
 .contain section .block-text p,
 .open p {
   font-size: 25px;
   line-height: 34px;
   font-family: "Roboto Regular";
   padding: 0 20px;
+  margin: 0;
 }
 
 @media only screen and (min-width: 60em) {
