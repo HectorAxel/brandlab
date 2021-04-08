@@ -124,6 +124,9 @@ img.logo.logo-dark {
   .contain section:nth-child(3n + 3) {
     width: 49.7%;
   }
+  .last {
+    width: 100%;
+  }
 }
 
 @font-face {
