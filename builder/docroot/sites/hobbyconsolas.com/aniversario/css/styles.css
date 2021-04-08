@@ -118,6 +118,12 @@ img.logo.logo-dark {
     line-height: 60px;
   }
 }
+@media only screen and (min-width: 87.5em) {
+  .contain section:nth-child(3n + 2),
+  .contain section:nth-child(3n + 3) {
+    width: 49.7%;
+  }
+}
 
 @font-face {
   font-family: "Roboto Regular";
