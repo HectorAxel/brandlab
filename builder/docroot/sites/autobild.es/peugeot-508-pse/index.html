@@ -91,14 +91,20 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
               <div class="process-1">
-                <div class="process__item">
+                <div
+                  class="process__item aos-init aos-animate"
+                  data-aos="fade-left"
+                >
                   <h4>205 GTI – 1984&nbsp;</h4>
                   <p>
                     (205 GTI apareció en 1984 con un motor 1.6 de 110 CV, aunque
                     pronto llegó la versión de 1,9 litros con 130 CV)
                   </p>
                 </div>
-                <div class="process__item">
+                <div
+                  class="process__item aos-init aos-animate"
+                  data-aos="fade-right"
+                >
                   <h4>205 TURBO 16 – 1986&nbsp;</h4>
                   <p>
                     (se homologó para disputar en Campeonato del Mundo de
@@ -457,5 +463,21 @@
     <script src="/builder/docroot/js/ytplayer.min.js"></script>
     <script src="/builder/docroot/js/smooth-scroll.min.js"></script>
     <script src="/builder/docroot/js/scripts.js"></script>
+    <!-- JS -->
+    <!-- Jarallax -->
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1200, once: true });
+    </script>
+
+    <script src="js/glide/dist/glide.min.js"></script>
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+      }).mount();
+    </script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
